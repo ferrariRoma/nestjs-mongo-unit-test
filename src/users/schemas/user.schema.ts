@@ -18,4 +18,4 @@ export class User {
   favoriteFoods: string[];
 }
 
-export const UserSchema = SchemaFactory.createForClass(User);
+export const UserSchema = SchemaFactory.createForClass<User>(User);

@@ -4,7 +4,7 @@ import { UpdateUserDto } from '../dto/update-user.dto';
 import { User } from '../schemas/user.schema';
 import { UsersController } from '../users.controller';
 import { UsersService } from '../users.service';
-import { userStub } from '../__mocks__/stubs/user.stub';
+import { userStub } from './stubs/user.stub';
 
 jest.mock('../users.service');
 
